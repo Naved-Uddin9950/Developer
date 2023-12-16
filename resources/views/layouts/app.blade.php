@@ -51,13 +51,13 @@
         <h3>Admin Menu</h3>
         <ul>
             <li><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Students</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Message</a></li>
-            <li><a href="#">Plans</a></li>
+            <li><a href="{{ route('admin.categories') }}">Categories</a></li>
+            <li><a href="{{ route('admin.courses') }}">Courses</a></li>
+            <li><a href="{{ route('admin.students') }}">Students</a></li>
+            <li><a href="{{ route('admin.settings') }}">Settings</a></li>
+            <li><a href="{{ route('admin.profile') }}">Profile</a></li>
+            <li><a href="{{ route('admin.message') }}">Message</a></li>
+            <li><a href="{{ route('admin.plans') }}">Plans</a></li>
         </ul>
     </div>
 
