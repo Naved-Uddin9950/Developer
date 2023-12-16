@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Laravel Admin Panel')</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../../public/front-end/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
     <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
         body {
             display: flex;
         }
@@ -13,9 +25,10 @@
         .sidebar {
             height: 100vh;
             width: 200px; 
-            background-color: #f2f2f2;
+            background-color: #EFF4FF;
             padding: 20px;
             transition: width 0.3s ease;
+        
         }
 
         main {
@@ -36,11 +49,29 @@
 
         .sidebar.contracted ul {
             display: none; 
+            
         }
 
         .main.contracted {
             margin-left: 60px;
         }
+
+
+.sidebar ul{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-item:center;
+    flex-direction: column;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+       .sidebar ul li a{
+        text-decoration: none;
+         font-size: 1.5rem;
+         color:gray;
+       }
     </style>
 </head>
 <body>
@@ -48,7 +79,6 @@
         <div class="menu-toggle" onclick="toggleSidebar()">
             <i class="fas fa-bars"></i>
         </div>
-        <h3>Admin Menu</h3>
         <ul>
             <li><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
             <li><a href="{{ route('admin.categories') }}">Categories</a></li>
