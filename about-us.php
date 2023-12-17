@@ -22,7 +22,15 @@ include('includes/config.php');
 
   </head>
 
+
+
   <body>
+
+<style>
+  body{
+    padding: 0;
+  }
+</style>
 
     <!-- Navigation -->
     <?php include('includes/header.php');?>
