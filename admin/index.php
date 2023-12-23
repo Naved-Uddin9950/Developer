@@ -30,12 +30,12 @@ echo "<script>alert('Invalid Details');</script>";
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="News Portal.">
+        <meta name="description" content="VortexNews.">
         <meta name="author" content="PHPGurukul">
 
 
         <!-- App title -->
-        <title>News Portal | Admin Panel</title>
+        <title>VortexNews | Admin Panel</title>
 
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

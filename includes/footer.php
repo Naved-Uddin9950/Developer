@@ -75,14 +75,14 @@
   <div class="links">
     <h5>Links</h5>
     <ul>
-      <li> <a href="https://google.com"> <span>Instagram </span> <i class="fa-brands fa-instagram"></i> </a> </li>
-      <li> <a href="https://google.com"> <span>WhatApp</span> <i class="fa-brands fa-whatsapp"></i> </a> </li>
-      <li> <a href="https://google.com"> <span>Facebook</span> <i class="fa-brands fa-facebook"></i> </a> </li>
-      <li> <a href="https://google.com"> <span>Twitter</span> <i class="fa-brands fa-twitter"></i> </a> </li>
+      <li> <a href="https://www.instagram.com/_n_a_v_e_d_99/" target="_blank">  <i class="fa-brands fa-instagram"></i> <span>Instagram </span></a> </li>
+      <li> <a href="https://wa.me/917791067072" target="_blank">  <i class="fa-brands fa-whatsapp"></i> <span>WhatApp</span></a> </li>
+      <li> <a href="https://www.linkedin.com/in/naved-uddin-800241195/" target="_blank">  <i class="fa-brands fa-facebook"></i> <span>LinkedIn</span></a> </li>
+      <li> <a href="https://github.com/Naved-Uddin9950/Developer/tree/main" target="_blank"> <i class="fa-brands fa-github"></i> <span>GitHub</span> </a> </li>
     </ul>
   </div>
   <div class="categories">
-    <h5>Categories</h5>
+    <h5>Sitemap</h5>
     <ul>
       <li class="nav-item">
         <a class="nav-link" href="index.php">Home</a>

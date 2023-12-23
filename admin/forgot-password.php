@@ -34,12 +34,12 @@ echo "<script type='text/javascript'> document.location = 'index.php'; </script>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="News Portal.">
+        <meta name="description" content="VortexNews.">
         <meta name="author" content="PHPGurukul">
 
 
         <!-- App title -->
-        <title>News Portal | Forgot Password</title>
+        <title>VortexNews | Forgot Password</title>
 
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

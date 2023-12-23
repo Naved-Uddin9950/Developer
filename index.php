@@ -17,7 +17,7 @@ include('includes/config.php');
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <meta name="author" content="">
 
-  <title>News Portal | Home Page</title>
+  <title>VortexNews | Home Page</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
